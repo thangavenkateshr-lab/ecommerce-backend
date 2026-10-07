@@ -1,0 +1,17 @@
+const express = require('express');
+const { registerUser, loginUser, logoutUser, userProfile, changePassword, allUsers, singleUser, updateUser, deleteUser, updateProfile, forgotPassword, resetPassword } = require('../controllers/authContoller');
+const { isAuthenticatedUser, authorizeRoles } = require('../middwares/authenticate');
+const router = express.Router();
+router.route('/register').post(registerUser);
+router.route('/login').post(loginUser);
+router.route('/logout').get(logoutUser);
+router.route('/password/forgot').post(forgotPassword);
+router.route('/password/reset/:token').post(resetPassword);
+router.route('/user/profile').get(isAuthenticatedUser, userProfile);
+router.route('/update/profile').put(isAuthenticatedUser, updateProfile);
+router.route('/password/change').put(isAuthenticatedUser, changePassword);
+router.route('/get/users').get(isAuthenticatedUser, authorizeRoles('admin'), allUsers);
+router.route('/single/user/:id').get(isAuthenticatedUser, authorizeRoles('admin'), singleUser);
+router.route('/single/user/:id').put(isAuthenticatedUser, authorizeRoles('admin'), updateUser);
+router.route('/single/user/:id').delete(isAuthenticatedUser, authorizeRoles('admin'), deleteUser);
+module.exports = router;

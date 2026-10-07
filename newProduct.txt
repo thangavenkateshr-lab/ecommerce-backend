@@ -1,0 +1,223 @@
+  {
+    name: "iPhone 15 Pro",
+    price: 139999,
+    description: "Apple iPhone 15 Pro with A17 chip",
+    ratings: "4.8",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600&h=600&fit=crop" }
+    ],
+    category: "Mobiles",
+    seller: "Apple Store",
+    stock: 15,
+    noOfReviews: 120
+  },
+
+  {
+    name: "Samsung Galaxy S24 Ultra",
+    price: 124999,
+    description: "Samsung flagship AI smartphone",
+    ratings: "4.7",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=600&h=600&fit=crop" }
+    ],
+    category: "Mobiles",
+    seller: "Samsung",
+    stock: 20,
+    noOfReviews: 85
+  },
+
+  {
+    name: "OnePlus 12",
+    price: 64999,
+    description: "Fast and smooth OnePlus flagship",
+    ratings: "4.6",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop" }
+    ],
+    category: "Mobiles",
+    seller: "OnePlus",
+    stock: 18,
+    noOfReviews: 90
+  },
+
+  {
+    name: "MacBook Air M3",
+    price: 154999,
+    description: "Apple lightweight laptop with M3 chip",
+    ratings: "4.9",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&h=600&fit=crop" }
+    ],
+    category: "Laptops",
+    seller: "Apple",
+    stock: 10,
+    noOfReviews: 210
+  },
+
+  {
+    name: "Dell XPS 15",
+    price: 129999,
+    description: "Premium developer laptop",
+    ratings: "4.7",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=600&fit=crop" }
+    ],
+    category: "Laptops",
+    seller: "Dell",
+    stock: 12,
+    noOfReviews: 75
+  },
+
+  {
+    name: "HP Pavilion Gaming",
+    price: 84999,
+    description: "Gaming laptop with RTX graphics",
+    ratings: "4.5",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=600&fit=crop" }
+    ],
+    category: "Laptops",
+    seller: "HP",
+    stock: 14,
+    noOfReviews: 100
+  },
+
+  {
+    name: "Sony WH-1000XM5",
+    price: 29999,
+    description: "Noise cancelling headphones",
+    ratings: "4.8",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&h=600&fit=crop" }
+    ],
+    category: "Speakers",
+    seller: "Sony",
+    stock: 25,
+    noOfReviews: 98
+  },
+
+  {
+    name: "JBL Flip 6",
+    price: 9999,
+    description: "Portable waterproof speaker",
+    ratings: "4.6",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1507878866276-a947ef722fee?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1512446816042-444d64126727?w=600&h=600&fit=crop" }
+    ],
+    category: "Speakers",
+    seller: "JBL",
+    stock: 22,
+    noOfReviews: 57
+  },
+
+  {
+    name: "Boat Stone 1200",
+    price: 4499,
+    description: "Wireless bluetooth speaker",
+    ratings: "4.3",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=600&h=600&fit=crop" }
+    ],
+    category: "Speakers",
+    seller: "Boat",
+    stock: 40,
+    noOfReviews: 49
+  },
+
+  {
+    name: "Nike Air Max",
+    price: 8999,
+    description: "Comfortable running shoes",
+    ratings: "4.5",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop" }
+    ],
+    category: "Shoes",
+    seller: "Nike",
+    stock: 30,
+    noOfReviews: 67
+  },
+
+  {
+    name: "Adidas Ultraboost",
+    price: 11999,
+    description: "Premium Adidas shoes",
+    ratings: "4.6",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&h=600&fit=crop" }
+    ],
+    category: "Shoes",
+    seller: "Adidas",
+    stock: 18,
+    noOfReviews: 92
+  },
+
+  {
+    name: "Puma Sneakers",
+    price: 4999,
+    description: "Daily wear sneakers",
+    ratings: "4.3",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&h=600&fit=crop" }
+    ],
+    category: "Shoes",
+    seller: "Puma",
+    stock: 25,
+    noOfReviews: 52
+  },
+
+  {
+    name: "Fossil Gen 6",
+    price: 17999,
+    description: "AMOLED smartwatch",
+    ratings: "4.4",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&h=600&fit=crop" }
+    ],
+    category: "Watches",
+    seller: "Fossil",
+    stock: 16,
+    noOfReviews: 44
+  },
+
+  {
+    name: "Rolex Submariner",
+    price: 899999,
+    description: "Luxury Swiss watch",
+    ratings: "5.0",
+    images: [
+      { file_name: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&h=600&fit=crop" },
+      { file_name: "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?w=600&h=600&fit=crop" }
+    ],
+    category: "Watches",
+    seller: "Rolex",
+    stock: 5,
+    noOfReviews: 11
+  }
